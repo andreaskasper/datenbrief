@@ -1,0 +1,12 @@
+# Zur Entwicklung noch ein Passwortschutz
+#AuthName "test"
+#AuthType Basic
+#AuthUserFile "c:\xampp\htdocs\.htusers"
+#require valid-user
+
+
+RewriteEngine On
+#RewriteBase /datenbrief/
+RewriteCond %{REQUEST_URI} !/skins/
+RewriteCond %{REQUEST_URI} !/index.php
+RewriteRule (.+) /index.php [L]  #Diese Zeile ändern, wenn das Programm in einem Unterverzeichnis liegt
