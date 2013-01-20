@@ -1,0 +1,1 @@
+<?php	$_ENV["config"]["db"][0]["conn"] = "mysql://root:@localhost:3306/datenbrief/";	define("asi_configuration_loaded", true);	define("debug", true);

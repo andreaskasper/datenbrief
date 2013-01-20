@@ -1,0 +1,1 @@
+<?phpPageEngine::html("html_head");PageEngine::html("header");?><article class="Content"><div class="layerslider">	<div style="width:100%;">		Hallo1	</div>	<div style="width:100%;">		Hallo2	</div></div><div>Flipboxen</div><div>Flipboxen</div>								</article>			<?phpPageEngine::html("footer");?>	</body></html><?phpexit(1);?>

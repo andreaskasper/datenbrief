@@ -1,0 +1,1 @@
+<div id="overall"><header>	<a class="logo" href="<?=get_path("/");?>"></a>	<nav class="main"><ul>	<li><a href="<?=get_path("/");?>">TOP-Firmen</a></li>	<li><a href="<?=get_path("/");?>">Anfrage stellen</a></li></ul></nav></header><div id="suboverall"><section id="content">
