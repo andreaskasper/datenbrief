@@ -6,7 +6,8 @@
 
 
 RewriteEngine On
-#RewriteBase /datenbrief/
+RewriteBase /datenbrief/
 RewriteCond %{REQUEST_URI} !/skins/
 RewriteCond %{REQUEST_URI} !/index.php
-RewriteRule (.+) /index.php [L]  #Diese Zeile ändern, wenn das Programm in einem Unterverzeichnis liegt
+RewriteRule (.+) /datenbrief/index.php [L]  
+#Diese Zeile ändern, wenn das Programm in einem Unterverzeichnis liegt
