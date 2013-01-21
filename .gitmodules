@@ -1,0 +1,3 @@
+[submodule "page/app/code/classes/phpseclib"]
+	path = page/app/code/classes/phpseclib
+	url = https://github.com/phpseclib/phpseclib.git
